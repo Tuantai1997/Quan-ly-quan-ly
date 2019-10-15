@@ -1,0 +1,73 @@
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb

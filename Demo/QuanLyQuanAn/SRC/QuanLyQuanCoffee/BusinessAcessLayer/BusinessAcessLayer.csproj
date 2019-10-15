@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3246E950-7FAA-412C-9539-C62A1DE411E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessAcessLayer</RootNamespace>
+    <AssemblyName>BusinessAcessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAL_Ban.cs" />
+    <Compile Include="BAL_CaLamViec.cs" />
+    <Compile Include="BAL_ChamCong.cs" />
+    <Compile Include="BAL_ChiTietHoaDon.cs" />
+    <Compile Include="BAL_HoaDon.cs" />
+    <Compile Include="BAL_KhuVuc.cs" />
+    <Compile Include="BAL_LichSuHoatDong.cs" />
+    <Compile Include="BAL_LoaiMon.cs" />
+    <Compile Include="BAL_Mon.cs" />
+    <Compile Include="BAL_NhanVien.cs" />
+    <Compile Include="BAL_PhanCong.cs" />
+    <Compile Include="BAL_PhieuChi.cs" />
+    <Compile Include="BAL_ThongTinQuan.cs" />
+    <Compile Include="Ban.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CaLamViec.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChamCong.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietHoaDon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="HoaDon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KhuVuc.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LichSuHoatDong.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiMon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Mon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhanCong.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuChi.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinQuan.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_Bill.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_ChamCong.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_Mon.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_ThongKeDoanhThu.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_ThongKeMonTheoNgay.cs">
+      <DependentUpon>CoffeeModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="CoffeeModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CoffeeModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="CoffeeModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+      <LastGenOutput>CoffeeModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="CoffeeModel.edmx.diagram">
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+    </None>
+    <None Include="CoffeeModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CoffeeModel.edmx</DependentUpon>
+      <LastGenOutput>CoffeeModel.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

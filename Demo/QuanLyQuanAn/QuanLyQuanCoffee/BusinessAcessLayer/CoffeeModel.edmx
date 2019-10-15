@@ -1,0 +1,1068 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CoffeeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Ban">
+          <Key>
+            <PropertyRef Name="MaBan" />
+          </Key>
+          <Property Name="MaBan" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaKV" Type="nvarchar" MaxLength="20" />
+          <Property Name="TenBan" Type="nvarchar(max)" />
+          <Property Name="TinhTrang" Type="bit" />
+        </EntityType>
+        <EntityType Name="CaLamViec">
+          <Key>
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="MaCa" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenCa" Type="nvarchar(max)" />
+          <Property Name="GioBatDau" Type="time" Precision="7" />
+          <Property Name="GioKetThuc" Type="time" Precision="7" />
+          <Property Name="GhiChu" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ChamCong">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="MaNV" />
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="ID" Type="date" Nullable="false" />
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaCa" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="Thang" Type="int" />
+          <Property Name="Nam" Type="int" />
+          <Property Name="TinhTrang" Type="bit" />
+        </EntityType>
+        <EntityType Name="ChiTietHoaDon">
+          <Key>
+            <PropertyRef Name="MaHD" />
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaHD" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaMon" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="DonGia" Type="float" />
+          <Property Name="SoLuong" Type="int" />
+          <Property Name="GhiChu" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="HoaDon">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaBan" Type="nvarchar" MaxLength="20" />
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" />
+          <Property Name="NgayLapHD" Type="datetime" />
+          <Property Name="PhuThu" Type="float" />
+          <Property Name="VAT" Type="float" />
+          <Property Name="DaThanhToan" Type="bit" />
+        </EntityType>
+        <EntityType Name="KhuVuc">
+          <Key>
+            <PropertyRef Name="MaKV" />
+          </Key>
+          <Property Name="MaKV" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenKV" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="LichSuHoatDong">
+          <Key>
+            <PropertyRef Name="MaLichSu" />
+          </Key>
+          <Property Name="MaLichSu" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" />
+          <Property Name="HoTen" Type="nvarchar(max)" />
+          <Property Name="HoatDong" Type="nvarchar(max)" />
+          <Property Name="ThoiGian" Type="datetime" />
+          <Property Name="TinhTrang" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="LoaiMon">
+          <Key>
+            <PropertyRef Name="MaLoaiMon" />
+          </Key>
+          <Property Name="MaLoaiMon" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenLoaiMon" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Mon">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaMon" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaLoaiMon" Type="nvarchar" MaxLength="20" />
+          <Property Name="TenMon" Type="nvarchar(max)" />
+          <Property Name="SoLuong" Type="int" />
+          <Property Name="DonGia" Type="float" />
+          <Property Name="GiaNhap" Type="float" />
+          <Property Name="HinhAnh" Type="image" />
+        </EntityType>
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="HoTen" Type="nvarchar(max)" />
+          <Property Name="NgaySinh" Type="date" />
+          <Property Name="Phai" Type="bit" />
+          <Property Name="CMND" Type="nvarchar" MaxLength="20" />
+          <Property Name="SDT" Type="nvarchar" MaxLength="20" />
+          <Property Name="DiaChi" Type="nvarchar(max)" />
+          <Property Name="NgayVaoLam" Type="date" />
+          <Property Name="Luong" Type="float" />
+          <Property Name="MatKhau" Type="nvarchar(max)" />
+          <Property Name="Quyen" Type="bit" />
+          <Property Name="HinhAnh" Type="image" />
+          <Property Name="Status" Type="bit" />
+        </EntityType>
+        <EntityType Name="PhanCong">
+          <Key>
+            <PropertyRef Name="MaNV" />
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaCa" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="GhiChu" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="PhieuChi">
+          <Key>
+            <PropertyRef Name="MaPhieuChi" />
+          </Key>
+          <Property Name="MaPhieuChi" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" />
+          <Property Name="MucDichChi" Type="nvarchar(max)" />
+          <Property Name="NgayChi" Type="datetime" />
+          <Property Name="TongTien" Type="float" />
+          <Property Name="GhiChu" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="ThongTinQuan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenQuan" Type="nvarchar(max)" />
+          <Property Name="DiaChi" Type="nvarchar(max)" />
+          <Property Name="SDT" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar(max)" />
+          <Property Name="HinhAnh" Type="image" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Coffee.dbo.VW_ChamCong' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VW_ChamCong">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="HoTen" Type="nvarchar(max)" />
+          <Property Name="SoBuoiLam" Type="int" />
+          <Property Name="SoBuoiNghi" Type="int" />
+          <Property Name="Luong" Type="float" />
+          <Property Name="Thang" Type="int" />
+          <Property Name="Nam" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Coffee.dbo.VW_Mon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VW_Mon">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaMon" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenMon" Type="nvarchar(max)" />
+          <Property Name="SoLuongDaBan" Type="int" />
+          <Property Name="DonGia" Type="float" />
+          <Property Name="GiaNhap" Type="float" />
+          <Property Name="DoanhThu" Type="float" />
+          <Property Name="TienLoi" Type="float" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Coffee.dbo.VW_ThongKeDoanhThu' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VW_ThongKeDoanhThu">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="NgayLapHD" Type="datetime" />
+          <Property Name="PhuThu" Type="float" />
+          <Property Name="VAT" Type="float" />
+          <Property Name="TriGiaHD" Type="float" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Coffee.dbo.VW_ThongKeMonTheoNgay' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VW_ThongKeMonTheoNgay">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="Ngay" Type="varchar" MaxLength="30" />
+          <Property Name="MaMon" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="TenMon" Type="nvarchar(max)" />
+          <Property Name="SL" Type="int" />
+          <Property Name="DoanhThu" Type="float" />
+        </EntityType>
+        <Association Name="FK_Bans_KhuVucs">
+          <End Role="KhuVuc" Type="Self.KhuVuc" Multiplicity="0..1" />
+          <End Role="Ban" Type="Self.Ban" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KhuVuc">
+              <PropertyRef Name="MaKV" />
+            </Principal>
+            <Dependent Role="Ban">
+              <PropertyRef Name="MaKV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChamCong_PhanCong">
+          <End Role="PhanCong" Type="Self.PhanCong" Multiplicity="1" />
+          <End Role="ChamCong" Type="Self.ChamCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PhanCong">
+              <PropertyRef Name="MaNV" />
+              <PropertyRef Name="MaCa" />
+            </Principal>
+            <Dependent Role="ChamCong">
+              <PropertyRef Name="MaNV" />
+              <PropertyRef Name="MaCa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChiTietHoaDons_HoaDons">
+          <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="1" />
+          <End Role="ChiTietHoaDon" Type="Self.ChiTietHoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HoaDon">
+              <PropertyRef Name="MaHD" />
+            </Principal>
+            <Dependent Role="ChiTietHoaDon">
+              <PropertyRef Name="MaHD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChiTietHoaDons_Mons">
+          <End Role="Mon" Type="Self.Mon" Multiplicity="1" />
+          <End Role="ChiTietHoaDon" Type="Self.ChiTietHoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mon">
+              <PropertyRef Name="MaMon" />
+            </Principal>
+            <Dependent Role="ChiTietHoaDon">
+              <PropertyRef Name="MaMon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HoaDons_Bans">
+          <End Role="Ban" Type="Self.Ban" Multiplicity="0..1" />
+          <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ban">
+              <PropertyRef Name="MaBan" />
+            </Principal>
+            <Dependent Role="HoaDon">
+              <PropertyRef Name="MaBan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HoaDons_NhaViens">
+          <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="0..1" />
+          <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="HoaDon">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mons_LoaiMons">
+          <End Role="LoaiMon" Type="Self.LoaiMon" Multiplicity="0..1" />
+          <End Role="Mon" Type="Self.Mon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiMon">
+              <PropertyRef Name="MaLoaiMon" />
+            </Principal>
+            <Dependent Role="Mon">
+              <PropertyRef Name="MaLoaiMon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhanCong_CaLamViec">
+          <End Role="CaLamViec" Type="Self.CaLamViec" Multiplicity="1" />
+          <End Role="PhanCong" Type="Self.PhanCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CaLamViec">
+              <PropertyRef Name="MaCa" />
+            </Principal>
+            <Dependent Role="PhanCong">
+              <PropertyRef Name="MaCa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhanCong_NhanVien">
+          <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+          <End Role="PhanCong" Type="Self.PhanCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="PhanCong">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhieuChi_NhanVien">
+          <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="0..1" />
+          <End Role="PhieuChi" Type="Self.PhieuChi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="PhieuChi">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CoffeeModelStoreContainer">
+          <EntitySet Name="Ban" EntityType="Self.Ban" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CaLamViec" EntityType="Self.CaLamViec" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ChamCong" EntityType="Self.ChamCong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ChiTietHoaDon" EntityType="Self.ChiTietHoaDon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="HoaDon" EntityType="Self.HoaDon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KhuVuc" EntityType="Self.KhuVuc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LichSuHoatDong" EntityType="Self.LichSuHoatDong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LoaiMon" EntityType="Self.LoaiMon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mon" EntityType="Self.Mon" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NhanVien" EntityType="Self.NhanVien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PhanCong" EntityType="Self.PhanCong" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PhieuChi" EntityType="Self.PhieuChi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ThongTinQuan" EntityType="Self.ThongTinQuan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VW_ChamCong" EntityType="Self.VW_ChamCong" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VW_ChamCong].[MaNV] AS [MaNV], 
+    [VW_ChamCong].[HoTen] AS [HoTen], 
+    [VW_ChamCong].[SoBuoiLam] AS [SoBuoiLam], 
+    [VW_ChamCong].[SoBuoiNghi] AS [SoBuoiNghi], 
+    [VW_ChamCong].[Luong] AS [Luong], 
+    [VW_ChamCong].[Thang] AS [Thang], 
+    [VW_ChamCong].[Nam] AS [Nam]
+    FROM [dbo].[VW_ChamCong] AS [VW_ChamCong]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VW_Mon" EntityType="Self.VW_Mon" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VW_Mon].[MaMon] AS [MaMon], 
+    [VW_Mon].[TenMon] AS [TenMon], 
+    [VW_Mon].[SoLuongDaBan] AS [SoLuongDaBan], 
+    [VW_Mon].[DonGia] AS [DonGia], 
+    [VW_Mon].[GiaNhap] AS [GiaNhap], 
+    [VW_Mon].[DoanhThu] AS [DoanhThu], 
+    [VW_Mon].[TienLoi] AS [TienLoi]
+    FROM [dbo].[VW_Mon] AS [VW_Mon]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VW_ThongKeDoanhThu" EntityType="Self.VW_ThongKeDoanhThu" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VW_ThongKeDoanhThu].[MaHD] AS [MaHD], 
+    [VW_ThongKeDoanhThu].[NgayLapHD] AS [NgayLapHD], 
+    [VW_ThongKeDoanhThu].[PhuThu] AS [PhuThu], 
+    [VW_ThongKeDoanhThu].[VAT] AS [VAT], 
+    [VW_ThongKeDoanhThu].[TriGiaHD] AS [TriGiaHD]
+    FROM [dbo].[VW_ThongKeDoanhThu] AS [VW_ThongKeDoanhThu]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VW_ThongKeMonTheoNgay" EntityType="Self.VW_ThongKeMonTheoNgay" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VW_ThongKeMonTheoNgay].[Ngay] AS [Ngay], 
+    [VW_ThongKeMonTheoNgay].[MaMon] AS [MaMon], 
+    [VW_ThongKeMonTheoNgay].[TenMon] AS [TenMon], 
+    [VW_ThongKeMonTheoNgay].[SL] AS [SL], 
+    [VW_ThongKeMonTheoNgay].[DoanhThu] AS [DoanhThu]
+    FROM [dbo].[VW_ThongKeMonTheoNgay] AS [VW_ThongKeMonTheoNgay]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Bans_KhuVucs" Association="Self.FK_Bans_KhuVucs">
+            <End Role="KhuVuc" EntitySet="KhuVuc" />
+            <End Role="Ban" EntitySet="Ban" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChamCong_PhanCong" Association="Self.FK_ChamCong_PhanCong">
+            <End Role="PhanCong" EntitySet="PhanCong" />
+            <End Role="ChamCong" EntitySet="ChamCong" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChiTietHoaDons_HoaDons" Association="Self.FK_ChiTietHoaDons_HoaDons">
+            <End Role="HoaDon" EntitySet="HoaDon" />
+            <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChiTietHoaDons_Mons" Association="Self.FK_ChiTietHoaDons_Mons">
+            <End Role="Mon" EntitySet="Mon" />
+            <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HoaDons_Bans" Association="Self.FK_HoaDons_Bans">
+            <End Role="Ban" EntitySet="Ban" />
+            <End Role="HoaDon" EntitySet="HoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HoaDons_NhaViens" Association="Self.FK_HoaDons_NhaViens">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="HoaDon" EntitySet="HoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mons_LoaiMons" Association="Self.FK_Mons_LoaiMons">
+            <End Role="LoaiMon" EntitySet="LoaiMon" />
+            <End Role="Mon" EntitySet="Mon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhanCong_CaLamViec" Association="Self.FK_PhanCong_CaLamViec">
+            <End Role="CaLamViec" EntitySet="CaLamViec" />
+            <End Role="PhanCong" EntitySet="PhanCong" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhanCong_NhanVien" Association="Self.FK_PhanCong_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="PhanCong" EntitySet="PhanCong" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhieuChi_NhanVien" Association="Self.FK_PhieuChi_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="PhieuChi" EntitySet="PhieuChi" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CoffeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CoffeeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Ban" EntityType="CoffeeModel.Ban" />
+          <EntitySet Name="ChiTietHoaDon" EntityType="CoffeeModel.ChiTietHoaDon" />
+          <EntitySet Name="KhuVuc" EntityType="CoffeeModel.KhuVuc" />
+          <EntitySet Name="LoaiMon" EntityType="CoffeeModel.LoaiMon" />
+          <EntitySet Name="Mon" EntityType="CoffeeModel.Mon" />
+          <EntitySet Name="NhanVien" EntityType="CoffeeModel.NhanVien" />
+          <AssociationSet Name="FK_Bans_KhuVucs" Association="CoffeeModel.FK_Bans_KhuVucs">
+            <End Role="KhuVuc" EntitySet="KhuVuc" />
+            <End Role="Ban" EntitySet="Ban" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChiTietHoaDons_Mons" Association="CoffeeModel.FK_ChiTietHoaDons_Mons">
+            <End Role="Mon" EntitySet="Mon" />
+            <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mons_LoaiMons" Association="CoffeeModel.FK_Mons_LoaiMons">
+            <End Role="LoaiMon" EntitySet="LoaiMon" />
+            <End Role="Mon" EntitySet="Mon" />
+          </AssociationSet>
+          <EntitySet Name="CaLamViec" EntityType="CoffeeModel.CaLamViec" />
+          <EntitySet Name="sysdiagrams" EntityType="CoffeeModel.sysdiagrams" />
+          <EntitySet Name="PhanCong" EntityType="CoffeeModel.PhanCong" />
+          <AssociationSet Name="FK_PhanCong_CaLamViec" Association="CoffeeModel.FK_PhanCong_CaLamViec">
+            <End Role="CaLamViec" EntitySet="CaLamViec" />
+            <End Role="PhanCong" EntitySet="PhanCong" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PhanCong_NhanVien" Association="CoffeeModel.FK_PhanCong_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="PhanCong" EntitySet="PhanCong" />
+          </AssociationSet>
+          <EntitySet Name="ThongTinQuan" EntityType="CoffeeModel.ThongTinQuan" />
+          <EntitySet Name="HoaDon" EntityType="CoffeeModel.HoaDon" />
+          <AssociationSet Name="FK_HoaDons_Bans" Association="CoffeeModel.FK_HoaDons_Bans">
+            <End Role="Ban" EntitySet="Ban" />
+            <End Role="HoaDon" EntitySet="HoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChiTietHoaDons_HoaDons" Association="CoffeeModel.FK_ChiTietHoaDons_HoaDons">
+            <End Role="HoaDon" EntitySet="HoaDon" />
+            <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HoaDons_NhaViens" Association="CoffeeModel.FK_HoaDons_NhaViens">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="HoaDon" EntitySet="HoaDon" />
+          </AssociationSet>
+          <EntitySet Name="PhieuChi" EntityType="CoffeeModel.PhieuChi" />
+          <AssociationSet Name="FK_PhieuChi_NhanVien" Association="CoffeeModel.FK_PhieuChi_NhanVien">
+            <End Role="NhanVien" EntitySet="NhanVien" />
+            <End Role="PhieuChi" EntitySet="PhieuChi" />
+          </AssociationSet>
+          <EntitySet Name="VW_ThongKeDoanhThu" EntityType="CoffeeModel.VW_ThongKeDoanhThu" />
+          <EntitySet Name="VW_Mon" EntityType="CoffeeModel.VW_Mon" />
+          <EntitySet Name="LichSuHoatDong" EntityType="CoffeeModel.LichSuHoatDong" />
+          <EntitySet Name="ChamCong" EntityType="CoffeeModel.ChamCong" />
+          <AssociationSet Name="FK_ChamCong_PhanCong" Association="CoffeeModel.FK_ChamCong_PhanCong">
+            <End Role="PhanCong" EntitySet="PhanCong" />
+            <End Role="ChamCong" EntitySet="ChamCong" />
+          </AssociationSet>
+          <EntitySet Name="VW_ChamCong" EntityType="CoffeeModel.VW_ChamCong" />
+          <EntitySet Name="VW_ThongKeMonTheoNgay" EntityType="CoffeeModel.VW_ThongKeMonTheoNgay" />
+        </EntityContainer>
+        <EntityType Name="Ban">
+          <Key>
+            <PropertyRef Name="MaBan" />
+          </Key>
+          <Property Name="MaBan" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaKV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenBan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TinhTrang" Type="Boolean" />
+          <NavigationProperty Name="KhuVuc" Relationship="CoffeeModel.FK_Bans_KhuVucs" FromRole="Ban" ToRole="KhuVuc" />
+          <NavigationProperty Name="HoaDons" Relationship="CoffeeModel.FK_HoaDons_Bans" FromRole="Ban" ToRole="HoaDon" />
+        </EntityType>
+        <EntityType Name="ChiTietHoaDon">
+          <Key>
+            <PropertyRef Name="MaHD" />
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="DonGia" Type="Double" />
+          <Property Name="SoLuong" Type="Int32" />
+          <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Mon" Relationship="CoffeeModel.FK_ChiTietHoaDons_Mons" FromRole="ChiTietHoaDon" ToRole="Mon" />
+          <NavigationProperty Name="HoaDon" Relationship="CoffeeModel.FK_ChiTietHoaDons_HoaDons" FromRole="ChiTietHoaDon" ToRole="HoaDon" />
+        </EntityType>
+        <EntityType Name="KhuVuc">
+          <Key>
+            <PropertyRef Name="MaKV" />
+          </Key>
+          <Property Name="MaKV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenKV" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Bans" Relationship="CoffeeModel.FK_Bans_KhuVucs" FromRole="KhuVuc" ToRole="Ban" />
+        </EntityType>
+        <EntityType Name="LoaiMon">
+          <Key>
+            <PropertyRef Name="MaLoaiMon" />
+          </Key>
+          <Property Name="MaLoaiMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenLoaiMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Mons" Relationship="CoffeeModel.FK_Mons_LoaiMons" FromRole="LoaiMon" ToRole="Mon" />
+        </EntityType>
+        <EntityType Name="Mon">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaLoaiMon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SoLuong" Type="Int32" />
+          <Property Name="DonGia" Type="Double" />
+          <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="ChiTietHoaDons" Relationship="CoffeeModel.FK_ChiTietHoaDons_Mons" FromRole="Mon" ToRole="ChiTietHoaDon" />
+          <NavigationProperty Name="LoaiMon" Relationship="CoffeeModel.FK_Mons_LoaiMons" FromRole="Mon" ToRole="LoaiMon" />
+          <Property Name="GiaNhap" Type="Double" />
+        </EntityType>
+        <EntityType Name="NhanVien">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="Phai" Type="Boolean" />
+          <Property Name="CMND" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SDT" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NgayVaoLam" Type="DateTime" Precision="0" />
+          <Property Name="Luong" Type="Double" />
+          <Property Name="MatKhau" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Quyen" Type="Boolean" />
+          <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Status" Type="Boolean" />
+          <NavigationProperty Name="PhanCongs" Relationship="CoffeeModel.FK_PhanCong_NhanVien" FromRole="NhanVien" ToRole="PhanCong" />
+          <NavigationProperty Name="HoaDons" Relationship="CoffeeModel.FK_HoaDons_NhaViens" FromRole="NhanVien" ToRole="HoaDon" />
+          <NavigationProperty Name="PhieuChies" Relationship="CoffeeModel.FK_PhieuChi_NhanVien" FromRole="NhanVien" ToRole="PhieuChi" />
+        </EntityType>
+        <Association Name="FK_Bans_KhuVucs">
+          <End Type="CoffeeModel.KhuVuc" Role="KhuVuc" Multiplicity="0..1" />
+          <End Type="CoffeeModel.Ban" Role="Ban" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="KhuVuc">
+              <PropertyRef Name="MaKV" />
+            </Principal>
+            <Dependent Role="Ban">
+              <PropertyRef Name="MaKV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChiTietHoaDons_Mons">
+          <End Type="CoffeeModel.Mon" Role="Mon" Multiplicity="1" />
+          <End Type="CoffeeModel.ChiTietHoaDon" Role="ChiTietHoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mon">
+              <PropertyRef Name="MaMon" />
+            </Principal>
+            <Dependent Role="ChiTietHoaDon">
+              <PropertyRef Name="MaMon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mons_LoaiMons">
+          <End Type="CoffeeModel.LoaiMon" Role="LoaiMon" Multiplicity="0..1" />
+          <End Type="CoffeeModel.Mon" Role="Mon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiMon">
+              <PropertyRef Name="MaLoaiMon" />
+            </Principal>
+            <Dependent Role="Mon">
+              <PropertyRef Name="MaLoaiMon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="CaLamViec">
+          <Key>
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenCa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GioBatDau" Type="Time" Precision="7" />
+          <Property Name="GioKetThuc" Type="Time" Precision="7" />
+          <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="PhanCongs" Relationship="CoffeeModel.FK_PhanCong_CaLamViec" FromRole="CaLamViec" ToRole="PhanCong" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="PhanCong">
+          <Key>
+            <PropertyRef Name="MaNV" />
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CaLamViec" Relationship="CoffeeModel.FK_PhanCong_CaLamViec" FromRole="PhanCong" ToRole="CaLamViec" />
+          <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_PhanCong_NhanVien" FromRole="PhanCong" ToRole="NhanVien" />
+          <NavigationProperty Name="ChamCongs" Relationship="CoffeeModel.FK_ChamCong_PhanCong" FromRole="PhanCong" ToRole="ChamCong" />
+        </EntityType>
+        <Association Name="FK_PhanCong_CaLamViec">
+          <End Type="CoffeeModel.CaLamViec" Role="CaLamViec" Multiplicity="1" />
+          <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CaLamViec">
+              <PropertyRef Name="MaCa" />
+            </Principal>
+            <Dependent Role="PhanCong">
+              <PropertyRef Name="MaCa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PhanCong_NhanVien">
+          <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="1" />
+          <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="PhanCong">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="ThongTinQuan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenQuan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SDT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="HoaDon">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaBan" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NgayLapHD" Type="DateTime" Precision="3" />
+          <Property Name="PhuThu" Type="Double" />
+          <Property Name="VAT" Type="Double" />
+          <Property Name="DaThanhToan" Type="Boolean" />
+          <NavigationProperty Name="Ban" Relationship="CoffeeModel.FK_HoaDons_Bans" FromRole="HoaDon" ToRole="Ban" />
+          <NavigationProperty Name="ChiTietHoaDons" Relationship="CoffeeModel.FK_ChiTietHoaDons_HoaDons" FromRole="HoaDon" ToRole="ChiTietHoaDon" />
+          <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_HoaDons_NhaViens" FromRole="HoaDon" ToRole="NhanVien" />
+        </EntityType>
+        <Association Name="FK_HoaDons_Bans">
+          <End Type="CoffeeModel.Ban" Role="Ban" Multiplicity="0..1" />
+          <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ban">
+              <PropertyRef Name="MaBan" />
+            </Principal>
+            <Dependent Role="HoaDon">
+              <PropertyRef Name="MaBan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChiTietHoaDons_HoaDons">
+          <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="1" />
+          <End Type="CoffeeModel.ChiTietHoaDon" Role="ChiTietHoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HoaDon">
+              <PropertyRef Name="MaHD" />
+            </Principal>
+            <Dependent Role="ChiTietHoaDon">
+              <PropertyRef Name="MaHD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HoaDons_NhaViens">
+          <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="0..1" />
+          <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="HoaDon">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="PhieuChi">
+          <Key>
+            <PropertyRef Name="MaPhieuChi" />
+          </Key>
+          <Property Name="MaPhieuChi" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MucDichChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NgayChi" Type="DateTime" Precision="3" />
+          <Property Name="TongTien" Type="Double" />
+          <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_PhieuChi_NhanVien" FromRole="PhieuChi" ToRole="NhanVien" />
+        </EntityType>
+        <Association Name="FK_PhieuChi_NhanVien">
+          <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="0..1" />
+          <End Type="CoffeeModel.PhieuChi" Role="PhieuChi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NhanVien">
+              <PropertyRef Name="MaNV" />
+            </Principal>
+            <Dependent Role="PhieuChi">
+              <PropertyRef Name="MaNV" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="VW_ThongKeDoanhThu">
+          <Key>
+            <PropertyRef Name="MaHD" />
+          </Key>
+          <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NgayLapHD" Type="DateTime" Precision="3" />
+          <Property Name="PhuThu" Type="Double" />
+          <Property Name="VAT" Type="Double" />
+          <Property Name="TriGiaHD" Type="Double" />
+        </EntityType>
+        <EntityType Name="VW_Mon">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SoLuongDaBan" Type="Int32" />
+          <Property Name="DonGia" Type="Double" />
+          <Property Name="GiaNhap" Type="Double" />
+          <Property Name="DoanhThu" Type="Double" />
+          <Property Name="TienLoi" Type="Double" />
+        </EntityType>
+        <EntityType Name="LichSuHoatDong">
+          <Key>
+            <PropertyRef Name="MaLichSu" />
+          </Key>
+          <Property Name="MaLichSu" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HoatDong" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ThoiGian" Type="DateTime" Precision="3" />
+          <Property Name="TinhTrang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ChamCong">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="MaNV" />
+            <PropertyRef Name="MaCa" />
+          </Key>
+          <Property Name="ID" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Thang" Type="Int32" />
+          <Property Name="Nam" Type="Int32" />
+          <Property Name="TinhTrang" Type="Boolean" />
+          <NavigationProperty Name="PhanCong" Relationship="CoffeeModel.FK_ChamCong_PhanCong" FromRole="ChamCong" ToRole="PhanCong" />
+        </EntityType>
+        <Association Name="FK_ChamCong_PhanCong">
+          <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="1" />
+          <End Type="CoffeeModel.ChamCong" Role="ChamCong" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PhanCong">
+              <PropertyRef Name="MaNV" />
+              <PropertyRef Name="MaCa" />
+            </Principal>
+            <Dependent Role="ChamCong">
+              <PropertyRef Name="MaNV" />
+              <PropertyRef Name="MaCa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="VW_ChamCong">
+          <Key>
+            <PropertyRef Name="MaNV" />
+          </Key>
+          <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SoBuoiLam" Type="Int32" />
+          <Property Name="SoBuoiNghi" Type="Int32" />
+          <Property Name="Luong" Type="Double" />
+          <Property Name="Thang" Type="Int32" />
+          <Property Name="Nam" Type="Int32" />
+        </EntityType>
+        <EntityType Name="VW_ThongKeMonTheoNgay">
+          <Key>
+            <PropertyRef Name="MaMon" />
+          </Key>
+          <Property Name="Ngay" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SL" Type="Int32" />
+          <Property Name="DoanhThu" Type="Double" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CoffeeModelStoreContainer" CdmEntityContainer="CoffeeEntities">
+          <EntitySetMapping Name="Ban">
+            <EntityTypeMapping TypeName="CoffeeModel.Ban">
+              <MappingFragment StoreEntitySet="Ban">
+                <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+                <ScalarProperty Name="TenBan" ColumnName="TenBan" />
+                <ScalarProperty Name="MaKV" ColumnName="MaKV" />
+                <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ChiTietHoaDon">
+            <EntityTypeMapping TypeName="CoffeeModel.ChiTietHoaDon">
+              <MappingFragment StoreEntitySet="ChiTietHoaDon">
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+                <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="KhuVuc">
+            <EntityTypeMapping TypeName="CoffeeModel.KhuVuc">
+              <MappingFragment StoreEntitySet="KhuVuc">
+                <ScalarProperty Name="TenKV" ColumnName="TenKV" />
+                <ScalarProperty Name="MaKV" ColumnName="MaKV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LoaiMon">
+            <EntityTypeMapping TypeName="CoffeeModel.LoaiMon">
+              <MappingFragment StoreEntitySet="LoaiMon">
+                <ScalarProperty Name="TenLoaiMon" ColumnName="TenLoaiMon" />
+                <ScalarProperty Name="MaLoaiMon" ColumnName="MaLoaiMon" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mon">
+            <EntityTypeMapping TypeName="CoffeeModel.Mon">
+              <MappingFragment StoreEntitySet="Mon">
+                <ScalarProperty Name="GiaNhap" ColumnName="GiaNhap" />
+                <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+                <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+                <ScalarProperty Name="MaLoaiMon" ColumnName="MaLoaiMon" />
+                <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NhanVien">
+            <EntityTypeMapping TypeName="CoffeeModel.NhanVien">
+              <MappingFragment StoreEntitySet="NhanVien">
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+                <ScalarProperty Name="Quyen" ColumnName="Quyen" />
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="Luong" ColumnName="Luong" />
+                <ScalarProperty Name="NgayVaoLam" ColumnName="NgayVaoLam" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="CMND" ColumnName="CMND" />
+                <ScalarProperty Name="Phai" ColumnName="Phai" />
+                <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CaLamViec">
+            <EntityTypeMapping TypeName="CoffeeModel.CaLamViec">
+              <MappingFragment StoreEntitySet="CaLamViec">
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="GioKetThuc" ColumnName="GioKetThuc" />
+                <ScalarProperty Name="GioBatDau" ColumnName="GioBatDau" />
+                <ScalarProperty Name="TenCa" ColumnName="TenCa" />
+                <ScalarProperty Name="MaCa" ColumnName="MaCa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="CoffeeModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="definition" ColumnName="definition" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="name" ColumnName="name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PhanCong">
+            <EntityTypeMapping TypeName="CoffeeModel.PhanCong">
+              <MappingFragment StoreEntitySet="PhanCong">
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="MaCa" ColumnName="MaCa" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ThongTinQuan">
+            <EntityTypeMapping TypeName="CoffeeModel.ThongTinQuan">
+              <MappingFragment StoreEntitySet="ThongTinQuan">
+                <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="TenQuan" ColumnName="TenQuan" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="HoaDon">
+            <EntityTypeMapping TypeName="CoffeeModel.HoaDon">
+              <MappingFragment StoreEntitySet="HoaDon">
+                <ScalarProperty Name="DaThanhToan" ColumnName="DaThanhToan" />
+                <ScalarProperty Name="VAT" ColumnName="VAT" />
+                <ScalarProperty Name="PhuThu" ColumnName="PhuThu" />
+                <ScalarProperty Name="NgayLapHD" ColumnName="NgayLapHD" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+                <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PhieuChi">
+            <EntityTypeMapping TypeName="CoffeeModel.PhieuChi">
+              <MappingFragment StoreEntitySet="PhieuChi">
+                <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+                <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+                <ScalarProperty Name="NgayChi" ColumnName="NgayChi" />
+                <ScalarProperty Name="MucDichChi" ColumnName="MucDichChi" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="MaPhieuChi" ColumnName="MaPhieuChi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VW_ThongKeDoanhThu">
+            <EntityTypeMapping TypeName="CoffeeModel.VW_ThongKeDoanhThu">
+              <MappingFragment StoreEntitySet="VW_ThongKeDoanhThu">
+                <ScalarProperty Name="TriGiaHD" ColumnName="TriGiaHD" />
+                <ScalarProperty Name="VAT" ColumnName="VAT" />
+                <ScalarProperty Name="PhuThu" ColumnName="PhuThu" />
+                <ScalarProperty Name="NgayLapHD" ColumnName="NgayLapHD" />
+                <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VW_Mon">
+            <EntityTypeMapping TypeName="CoffeeModel.VW_Mon">
+              <MappingFragment StoreEntitySet="VW_Mon">
+                <ScalarProperty Name="TienLoi" ColumnName="TienLoi" />
+                <ScalarProperty Name="DoanhThu" ColumnName="DoanhThu" />
+                <ScalarProperty Name="GiaNhap" ColumnName="GiaNhap" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="SoLuongDaBan" ColumnName="SoLuongDaBan" />
+                <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+                <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LichSuHoatDong">
+            <EntityTypeMapping TypeName="CoffeeModel.LichSuHoatDong">
+              <MappingFragment StoreEntitySet="LichSuHoatDong">
+                <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+                <ScalarProperty Name="ThoiGian" ColumnName="ThoiGian" />
+                <ScalarProperty Name="HoatDong" ColumnName="HoatDong" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="MaLichSu" ColumnName="MaLichSu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ChamCong">
+            <EntityTypeMapping TypeName="CoffeeModel.ChamCong">
+              <MappingFragment StoreEntitySet="ChamCong">
+                <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+                <ScalarProperty Name="Nam" ColumnName="Nam" />
+                <ScalarProperty Name="Thang" ColumnName="Thang" />
+                <ScalarProperty Name="MaCa" ColumnName="MaCa" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VW_ChamCong">
+            <EntityTypeMapping TypeName="CoffeeModel.VW_ChamCong">
+              <MappingFragment StoreEntitySet="VW_ChamCong">
+                <ScalarProperty Name="Nam" ColumnName="Nam" />
+                <ScalarProperty Name="Thang" ColumnName="Thang" />
+                <ScalarProperty Name="Luong" ColumnName="Luong" />
+                <ScalarProperty Name="SoBuoiNghi" ColumnName="SoBuoiNghi" />
+                <ScalarProperty Name="SoBuoiLam" ColumnName="SoBuoiLam" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VW_ThongKeMonTheoNgay">
+            <EntityTypeMapping TypeName="CoffeeModel.VW_ThongKeMonTheoNgay">
+              <MappingFragment StoreEntitySet="VW_ThongKeMonTheoNgay">
+                <ScalarProperty Name="DoanhThu" ColumnName="DoanhThu" />
+                <ScalarProperty Name="SL" ColumnName="SL" />
+                <ScalarProperty Name="TenMon" ColumnName="TenMon" />
+                <ScalarProperty Name="MaMon" ColumnName="MaMon" />
+                <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

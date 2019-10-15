@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CoffeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CoffeeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Ban" EntityType="CoffeeModel.Ban" />
+    <EntitySet Name="ChiTietHoaDon" EntityType="CoffeeModel.ChiTietHoaDon" />
+    <EntitySet Name="KhuVuc" EntityType="CoffeeModel.KhuVuc" />
+    <EntitySet Name="LoaiMon" EntityType="CoffeeModel.LoaiMon" />
+    <EntitySet Name="Mon" EntityType="CoffeeModel.Mon" />
+    <EntitySet Name="NhanVien" EntityType="CoffeeModel.NhanVien" />
+    <AssociationSet Name="FK_Bans_KhuVucs" Association="CoffeeModel.FK_Bans_KhuVucs">
+      <End Role="KhuVuc" EntitySet="KhuVuc" />
+      <End Role="Ban" EntitySet="Ban" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChiTietHoaDons_Mons" Association="CoffeeModel.FK_ChiTietHoaDons_Mons">
+      <End Role="Mon" EntitySet="Mon" />
+      <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mons_LoaiMons" Association="CoffeeModel.FK_Mons_LoaiMons">
+      <End Role="LoaiMon" EntitySet="LoaiMon" />
+      <End Role="Mon" EntitySet="Mon" />
+    </AssociationSet>
+    <EntitySet Name="CaLamViec" EntityType="CoffeeModel.CaLamViec" />
+    <EntitySet Name="sysdiagrams" EntityType="CoffeeModel.sysdiagrams" />
+    <EntitySet Name="PhanCong" EntityType="CoffeeModel.PhanCong" />
+    <AssociationSet Name="FK_PhanCong_CaLamViec" Association="CoffeeModel.FK_PhanCong_CaLamViec">
+      <End Role="CaLamViec" EntitySet="CaLamViec" />
+      <End Role="PhanCong" EntitySet="PhanCong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PhanCong_NhanVien" Association="CoffeeModel.FK_PhanCong_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="PhanCong" EntitySet="PhanCong" />
+    </AssociationSet>
+    <EntitySet Name="ThongTinQuan" EntityType="CoffeeModel.ThongTinQuan" />
+    <EntitySet Name="HoaDon" EntityType="CoffeeModel.HoaDon" />
+    <AssociationSet Name="FK_HoaDons_Bans" Association="CoffeeModel.FK_HoaDons_Bans">
+      <End Role="Ban" EntitySet="Ban" />
+      <End Role="HoaDon" EntitySet="HoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChiTietHoaDons_HoaDons" Association="CoffeeModel.FK_ChiTietHoaDons_HoaDons">
+      <End Role="HoaDon" EntitySet="HoaDon" />
+      <End Role="ChiTietHoaDon" EntitySet="ChiTietHoaDon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HoaDons_NhaViens" Association="CoffeeModel.FK_HoaDons_NhaViens">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="HoaDon" EntitySet="HoaDon" />
+    </AssociationSet>
+    <EntitySet Name="PhieuChi" EntityType="CoffeeModel.PhieuChi" />
+    <AssociationSet Name="FK_PhieuChi_NhanVien" Association="CoffeeModel.FK_PhieuChi_NhanVien">
+      <End Role="NhanVien" EntitySet="NhanVien" />
+      <End Role="PhieuChi" EntitySet="PhieuChi" />
+    </AssociationSet>
+    <EntitySet Name="VW_ThongKeDoanhThu" EntityType="CoffeeModel.VW_ThongKeDoanhThu" />
+    <EntitySet Name="VW_Mon" EntityType="CoffeeModel.VW_Mon" />
+    <EntitySet Name="LichSuHoatDong" EntityType="CoffeeModel.LichSuHoatDong" />
+    <EntitySet Name="ChamCong" EntityType="CoffeeModel.ChamCong" />
+    <AssociationSet Name="FK_ChamCong_PhanCong" Association="CoffeeModel.FK_ChamCong_PhanCong">
+      <End Role="PhanCong" EntitySet="PhanCong" />
+      <End Role="ChamCong" EntitySet="ChamCong" />
+    </AssociationSet>
+    <EntitySet Name="VW_ChamCong" EntityType="CoffeeModel.VW_ChamCong" />
+    <EntitySet Name="VW_ThongKeMonTheoNgay" EntityType="CoffeeModel.VW_ThongKeMonTheoNgay" />
+  </EntityContainer>
+  <EntityType Name="Ban">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaKV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenBan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrang" Type="Boolean" />
+    <NavigationProperty Name="KhuVuc" Relationship="CoffeeModel.FK_Bans_KhuVucs" FromRole="Ban" ToRole="KhuVuc" />
+    <NavigationProperty Name="HoaDons" Relationship="CoffeeModel.FK_HoaDons_Bans" FromRole="Ban" ToRole="HoaDon" />
+  </EntityType>
+  <EntityType Name="ChiTietHoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Mon" Relationship="CoffeeModel.FK_ChiTietHoaDons_Mons" FromRole="ChiTietHoaDon" ToRole="Mon" />
+    <NavigationProperty Name="HoaDon" Relationship="CoffeeModel.FK_ChiTietHoaDons_HoaDons" FromRole="ChiTietHoaDon" ToRole="HoaDon" />
+  </EntityType>
+  <EntityType Name="KhuVuc">
+    <Key>
+      <PropertyRef Name="MaKV" />
+    </Key>
+    <Property Name="MaKV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenKV" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bans" Relationship="CoffeeModel.FK_Bans_KhuVucs" FromRole="KhuVuc" ToRole="Ban" />
+  </EntityType>
+  <EntityType Name="LoaiMon">
+    <Key>
+      <PropertyRef Name="MaLoaiMon" />
+    </Key>
+    <Property Name="MaLoaiMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenLoaiMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Mons" Relationship="CoffeeModel.FK_Mons_LoaiMons" FromRole="LoaiMon" ToRole="Mon" />
+  </EntityType>
+  <EntityType Name="Mon">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaLoaiMon" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="ChiTietHoaDons" Relationship="CoffeeModel.FK_ChiTietHoaDons_Mons" FromRole="Mon" ToRole="ChiTietHoaDon" />
+    <NavigationProperty Name="LoaiMon" Relationship="CoffeeModel.FK_Mons_LoaiMons" FromRole="Mon" ToRole="LoaiMon" />
+    <Property Name="GiaNhap" Type="Double" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="Phai" Type="Boolean" />
+    <Property Name="CMND" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgayVaoLam" Type="DateTime" Precision="0" />
+    <Property Name="Luong" Type="Double" />
+    <Property Name="MatKhau" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Quyen" Type="Boolean" />
+    <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Status" Type="Boolean" />
+    <NavigationProperty Name="PhanCongs" Relationship="CoffeeModel.FK_PhanCong_NhanVien" FromRole="NhanVien" ToRole="PhanCong" />
+    <NavigationProperty Name="HoaDons" Relationship="CoffeeModel.FK_HoaDons_NhaViens" FromRole="NhanVien" ToRole="HoaDon" />
+    <NavigationProperty Name="PhieuChies" Relationship="CoffeeModel.FK_PhieuChi_NhanVien" FromRole="NhanVien" ToRole="PhieuChi" />
+  </EntityType>
+  <Association Name="FK_Bans_KhuVucs">
+    <End Type="CoffeeModel.KhuVuc" Role="KhuVuc" Multiplicity="0..1" />
+    <End Type="CoffeeModel.Ban" Role="Ban" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhuVuc">
+        <PropertyRef Name="MaKV" />
+      </Principal>
+      <Dependent Role="Ban">
+        <PropertyRef Name="MaKV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChiTietHoaDons_Mons">
+    <End Type="CoffeeModel.Mon" Role="Mon" Multiplicity="1" />
+    <End Type="CoffeeModel.ChiTietHoaDon" Role="ChiTietHoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mon">
+        <PropertyRef Name="MaMon" />
+      </Principal>
+      <Dependent Role="ChiTietHoaDon">
+        <PropertyRef Name="MaMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mons_LoaiMons">
+    <End Type="CoffeeModel.LoaiMon" Role="LoaiMon" Multiplicity="0..1" />
+    <End Type="CoffeeModel.Mon" Role="Mon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiMon">
+        <PropertyRef Name="MaLoaiMon" />
+      </Principal>
+      <Dependent Role="Mon">
+        <PropertyRef Name="MaLoaiMon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="CaLamViec">
+    <Key>
+      <PropertyRef Name="MaCa" />
+    </Key>
+    <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenCa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GioBatDau" Type="Time" Precision="7" />
+    <Property Name="GioKetThuc" Type="Time" Precision="7" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PhanCongs" Relationship="CoffeeModel.FK_PhanCong_CaLamViec" FromRole="CaLamViec" ToRole="PhanCong" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PhanCong">
+    <Key>
+      <PropertyRef Name="MaNV" />
+      <PropertyRef Name="MaCa" />
+    </Key>
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CaLamViec" Relationship="CoffeeModel.FK_PhanCong_CaLamViec" FromRole="PhanCong" ToRole="CaLamViec" />
+    <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_PhanCong_NhanVien" FromRole="PhanCong" ToRole="NhanVien" />
+    <NavigationProperty Name="ChamCongs" Relationship="CoffeeModel.FK_ChamCong_PhanCong" FromRole="PhanCong" ToRole="ChamCong" />
+  </EntityType>
+  <Association Name="FK_PhanCong_CaLamViec">
+    <End Type="CoffeeModel.CaLamViec" Role="CaLamViec" Multiplicity="1" />
+    <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CaLamViec">
+        <PropertyRef Name="MaCa" />
+      </Principal>
+      <Dependent Role="PhanCong">
+        <PropertyRef Name="MaCa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PhanCong_NhanVien">
+    <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="1" />
+    <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PhanCong">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ThongTinQuan">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenQuan" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SDT" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HinhAnh" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaBan" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayLapHD" Type="DateTime" Precision="3" />
+    <Property Name="PhuThu" Type="Double" />
+    <Property Name="VAT" Type="Double" />
+    <Property Name="DaThanhToan" Type="Boolean" />
+    <NavigationProperty Name="Ban" Relationship="CoffeeModel.FK_HoaDons_Bans" FromRole="HoaDon" ToRole="Ban" />
+    <NavigationProperty Name="ChiTietHoaDons" Relationship="CoffeeModel.FK_ChiTietHoaDons_HoaDons" FromRole="HoaDon" ToRole="ChiTietHoaDon" />
+    <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_HoaDons_NhaViens" FromRole="HoaDon" ToRole="NhanVien" />
+  </EntityType>
+  <Association Name="FK_HoaDons_Bans">
+    <End Type="CoffeeModel.Ban" Role="Ban" Multiplicity="0..1" />
+    <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ban">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChiTietHoaDons_HoaDons">
+    <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="1" />
+    <End Type="CoffeeModel.ChiTietHoaDon" Role="ChiTietHoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDon">
+        <PropertyRef Name="MaHD" />
+      </Principal>
+      <Dependent Role="ChiTietHoaDon">
+        <PropertyRef Name="MaHD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HoaDons_NhaViens">
+    <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="0..1" />
+    <End Type="CoffeeModel.HoaDon" Role="HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PhieuChi">
+    <Key>
+      <PropertyRef Name="MaPhieuChi" />
+    </Key>
+    <Property Name="MaPhieuChi" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MucDichChi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NgayChi" Type="DateTime" Precision="3" />
+    <Property Name="TongTien" Type="Double" />
+    <Property Name="GhiChu" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NhanVien" Relationship="CoffeeModel.FK_PhieuChi_NhanVien" FromRole="PhieuChi" ToRole="NhanVien" />
+  </EntityType>
+  <Association Name="FK_PhieuChi_NhanVien">
+    <End Type="CoffeeModel.NhanVien" Role="NhanVien" Multiplicity="0..1" />
+    <End Type="CoffeeModel.PhieuChi" Role="PhieuChi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="MaNV" />
+      </Principal>
+      <Dependent Role="PhieuChi">
+        <PropertyRef Name="MaNV" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="VW_ThongKeDoanhThu">
+    <Key>
+      <PropertyRef Name="MaHD" />
+    </Key>
+    <Property Name="MaHD" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayLapHD" Type="DateTime" Precision="3" />
+    <Property Name="PhuThu" Type="Double" />
+    <Property Name="VAT" Type="Double" />
+    <Property Name="TriGiaHD" Type="Double" />
+  </EntityType>
+  <EntityType Name="VW_Mon">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoLuongDaBan" Type="Int32" />
+    <Property Name="DonGia" Type="Double" />
+    <Property Name="GiaNhap" Type="Double" />
+    <Property Name="DoanhThu" Type="Double" />
+    <Property Name="TienLoi" Type="Double" />
+  </EntityType>
+  <EntityType Name="LichSuHoatDong">
+    <Key>
+      <PropertyRef Name="MaLichSu" />
+    </Key>
+    <Property Name="MaLichSu" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaNV" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HoatDong" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGian" Type="DateTime" Precision="3" />
+    <Property Name="TinhTrang" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ChamCong">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="MaNV" />
+      <PropertyRef Name="MaCa" />
+    </Key>
+    <Property Name="ID" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MaCa" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Thang" Type="Int32" />
+    <Property Name="Nam" Type="Int32" />
+    <Property Name="TinhTrang" Type="Boolean" />
+    <NavigationProperty Name="PhanCong" Relationship="CoffeeModel.FK_ChamCong_PhanCong" FromRole="ChamCong" ToRole="PhanCong" />
+  </EntityType>
+  <Association Name="FK_ChamCong_PhanCong">
+    <End Type="CoffeeModel.PhanCong" Role="PhanCong" Multiplicity="1" />
+    <End Type="CoffeeModel.ChamCong" Role="ChamCong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhanCong">
+        <PropertyRef Name="MaNV" />
+        <PropertyRef Name="MaCa" />
+      </Principal>
+      <Dependent Role="ChamCong">
+        <PropertyRef Name="MaNV" />
+        <PropertyRef Name="MaCa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="VW_ChamCong">
+    <Key>
+      <PropertyRef Name="MaNV" />
+    </Key>
+    <Property Name="MaNV" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="HoTen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SoBuoiLam" Type="Int32" />
+    <Property Name="SoBuoiNghi" Type="Int32" />
+    <Property Name="Luong" Type="Double" />
+    <Property Name="Thang" Type="Int32" />
+    <Property Name="Nam" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VW_ThongKeMonTheoNgay">
+    <Key>
+      <PropertyRef Name="MaMon" />
+    </Key>
+    <Property Name="Ngay" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MaMon" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TenMon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SL" Type="Int32" />
+    <Property Name="DoanhThu" Type="Double" />
+  </EntityType>
+</Schema>

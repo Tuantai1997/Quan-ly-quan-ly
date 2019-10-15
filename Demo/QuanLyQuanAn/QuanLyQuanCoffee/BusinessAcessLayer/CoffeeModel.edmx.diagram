@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="39ba120fb74743bd88751f341ebe34cc" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="CoffeeModel.Ban" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CoffeeModel.ChiTietHoaDon" Width="1.5" PointX="8.25" PointY="4.625" />
+        <EntityTypeShape EntityType="CoffeeModel.KhuVuc" Width="1.5" PointX="1.5" PointY="1.125" />
+        <EntityTypeShape EntityType="CoffeeModel.LoaiMon" Width="1.5" PointX="3.75" PointY="9" />
+        <EntityTypeShape EntityType="CoffeeModel.Mon" Width="1.5" PointX="6" PointY="8.5" />
+        <EntityTypeShape EntityType="CoffeeModel.NhanVien" Width="1.5" PointX="0.75" PointY="3.875" />
+        <AssociationConnector Association="CoffeeModel.FK_Bans_KhuVucs" />
+        <AssociationConnector Association="CoffeeModel.FK_ChiTietHoaDons_Mons" />
+        <AssociationConnector Association="CoffeeModel.FK_Mons_LoaiMons" />
+        <EntityTypeShape EntityType="CoffeeModel.CaLamViec" Width="1.5" PointX="0.75" PointY="12.875" />
+        <EntityTypeShape EntityType="CoffeeModel.sysdiagrams" Width="1.5" PointX="6.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CoffeeModel.PhanCong" Width="1.5" PointX="0.75" PointY="10.125" />
+        <AssociationConnector Association="CoffeeModel.FK_PhanCong_CaLamViec" />
+        <AssociationConnector Association="CoffeeModel.FK_PhanCong_NhanVien" />
+        <EntityTypeShape EntityType="CoffeeModel.ThongTinQuan" Width="1.5" PointX="8.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CoffeeModel.HoaDon" Width="1.5" PointX="6" PointY="3.875" />
+        <AssociationConnector Association="CoffeeModel.FK_HoaDons_Bans" />
+        <AssociationConnector Association="CoffeeModel.FK_ChiTietHoaDons_HoaDons" />
+        <AssociationConnector Association="CoffeeModel.FK_HoaDons_NhaViens" />
+        <EntityTypeShape EntityType="CoffeeModel.PhieuChi" Width="1.5" PointX="3" PointY="4.75" />
+        <AssociationConnector Association="CoffeeModel.FK_PhieuChi_NhanVien" />
+        <EntityTypeShape EntityType="CoffeeModel.VW_ThongKeDoanhThu" Width="1.5" PointX="8.75" PointY="7.75" />
+        <EntityTypeShape EntityType="CoffeeModel.VW_Mon" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CoffeeModel.LichSuHoatDong" Width="1.5" PointX="10.375" PointY="4.75" />
+        <EntityTypeShape EntityType="CoffeeModel.ChamCong" Width="1.5" PointX="3" PointY="12" />
+        <AssociationConnector Association="CoffeeModel.FK_ChamCong_PhanCong" />
+        <EntityTypeShape EntityType="CoffeeModel.VW_ChamCong" Width="1.5" PointX="8.375" PointY="10.75" />
+        <EntityTypeShape EntityType="CoffeeModel.VW_ThongKeMonTheoNgay" Width="1.5" PointX="10.375" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

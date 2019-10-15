@@ -1,0 +1,20 @@
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll.config
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.dll
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\BusinessAcessLayer.pdb
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\EntityFramework.dll
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\EntityFramework.xml
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.csprojResolveAssemblyReference.cache
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.dll
+C:\Users\15520\Desktop\QuanLyQuanAn\QuanLyQuanAn\BusinessAcessLayer\obj\Debug\BusinessAcessLayer.pdb

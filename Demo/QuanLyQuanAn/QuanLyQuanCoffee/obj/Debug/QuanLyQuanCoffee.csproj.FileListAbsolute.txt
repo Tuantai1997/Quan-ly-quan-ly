@@ -1,0 +1,473 @@
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLogin.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.Properties.Resources.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csproj.GenerateResource.Cache
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.pdb
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditChiTietHoaDon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmMain.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmQuanLyBanHang.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe.licenses
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiBan.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmGopBan.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmWelcome.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiMatKhau.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditThongTinQuan.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInfo.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucMon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucLoaiMon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucBan.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucKhuVuc.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucPhieuChi.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucHoaDon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditHoaDon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhapHang.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.cache
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.compiled
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeMon.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLichSuHoatDong.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDonXuongBep.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDiemDanh.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmCaLamViec.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmChiTietChamCong.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmTinhLuong.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhanVien.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuNgay.resources
+E:\Visual Studio 2013\Projects\Lập trình trên Windows\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuThang.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Data.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Utils.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraBars.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Office.v15.2.Core.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.pdb
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Data.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Utils.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraBars.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Office.v15.2.Core.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmChiTietChamCong.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhanVien.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuNgay.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmTinhLuong.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmCaLamViec.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucBan.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucHoaDon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucKhuVuc.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucLoaiMon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucMon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucPhieuChi.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDiemDanh.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiBan.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiMatKhau.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditChiTietHoaDon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditHoaDon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditThongTinQuan.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmGopBan.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInfo.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDonXuongBep.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLichSuHoatDong.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLogin.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmMain.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhapHang.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmQuanLyBanHang.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuThang.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeMon.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmWelcome.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.Properties.Resources.resources
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csproj.GenerateResource.Cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe.licenses
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.cache
+C:\Users\Windows 10\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.compiled
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Data.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.RichEdit.v15.2.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Utils.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraBars.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraEditors.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraLayout.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraTreeList.v15.2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Office.v15.2.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Drawing.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.pdb
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Data.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.RichEdit.v15.2.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Utils.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraBars.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraEditors.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraLayout.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.XtraTreeList.v15.2.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Office.v15.2.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Pdf.v15.2.Drawing.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraBars.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraBars.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraBars.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraBars.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraEditors.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraEditors.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraEditors.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraEditors.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraLayout.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraLayout.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraLayout.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraLayout.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Office.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Office.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Office.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Office.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csprojResolveAssemblyReference.cache
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmChiTietChamCong.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhanVien.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuNgay.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmTinhLuong.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmCaLamViec.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucBan.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucHoaDon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucKhuVuc.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucLoaiMon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucMon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucPhieuChi.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDiemDanh.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiBan.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiMatKhau.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditChiTietHoaDon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditHoaDon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditThongTinQuan.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmGopBan.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInfo.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDonXuongBep.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLichSuHoatDong.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLogin.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmMain.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhapHang.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmQuanLyBanHang.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuThang.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeMon.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmWelcome.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.Properties.Resources.resources
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csproj.GenerateResource.Cache
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe.licenses
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.cache
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.compiled
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Design.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE80.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\stdole.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\VSLangProj.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\VSLangProj80.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.MSXML.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\VSLangProj2.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Data.Services.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Data.Core.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+F:\tran anh son\Study\Lap trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.xml
+C:\Users\Admin\Downloads\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+C:\Users\Admin\Downloads\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+C:\Users\Admin\Downloads\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csprojResolveAssemblyReference.cache
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhanVien.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuNgay.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmTinhLuong.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmCaLamViec.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucBan.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucHoaDon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucKhuVuc.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucLoaiMon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucMon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucPhieuChi.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDiemDanh.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiBan.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiMatKhau.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditChiTietHoaDon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditHoaDon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditThongTinQuan.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmGopBan.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInfo.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDonXuongBep.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLichSuHoatDong.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLogin.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmMain.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhapHang.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmQuanLyBanHang.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuThang.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeMon.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmWelcome.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.Properties.Resources.resources
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csproj.GenerateResource.Cache
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.cache
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\RdlCompile.compiled
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.pdb
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Design.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Interaction.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Extensibility.dll
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.pdb
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Interaction.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.Windows.Design.Extensibility.xml
+E:\Tai Lieu\Lap Trinh\Cong nghe phan mem\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmPhanCong.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.pdb
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.DataVisualization.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.Design.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebDesign.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.ReportViewer.WinForms.DLL
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE80.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\stdole.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\Microsoft.MSXML.dll
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\BusinessAcessLayer.pdb
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.xml
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EntityFramework.SqlServer.xml
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE.xml
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\EnvDTE80.xml
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csprojResolveAssemblyReference.cache
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhanVien.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmPhanCong.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuNgay.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmTinhLuong.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmCaLamViec.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucBan.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucHoaDon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucKhuVuc.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucLoaiMon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucMon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDanhMucPhieuChi.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDiemDanh.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiBan.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmDoiMatKhau.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditChiTietHoaDon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditHoaDon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmEditThongTinQuan.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmGopBan.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInfo.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmInHoaDonXuongBep.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLichSuHoatDong.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmLogin.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmMain.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmNhapHang.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmQuanLyBanHang.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeDoanhThuThang.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmThongKeMon.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.frmWelcome.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.Properties.Resources.resources
+D:\Phan-Tich_Thiet_ke_HTTT\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.csproj.GenerateResource.Cache
+C:\Users\15520\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\bin\Debug\QuanLyQuanCoffee.exe.config
+C:\Users\15520\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.exe
+C:\Users\15520\Desktop\QuanLyQuanCoffee\QuanLyQuanCoffee\obj\Debug\QuanLyQuanCoffee.pdb
